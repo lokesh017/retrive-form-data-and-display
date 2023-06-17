@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="margin">
+    <div id="container">
+        <div id="div1">
+        <form autocomplete="off"></form>
+            <h1>Form Submition:</h1><br><br>
+            <label>First Name:</label><br><br>
+            <input type="text" id="fname" name="fname" class="clear" placeholder="First Name"><br><br>
+            
+            <label>Last Name:</label><br><br>
+            <input type="text" id="lname" name="lname" class="clear" placeholder="Last Name"><br><br>
+
+            <label>Address 1:</label><br><br>
+            <input type="text" id="address1" name="address1" class="clear" placeholder="Address 1"><br><br>
+
+            <label>Address 2:</label><br><br>
+            <input type="text" id="address2" name="address2" class="clear" placeholder="Address 2"><br><br>
+
+            <label>PIN:</label><br><br>
+            <input type="number" id="pin" name="pin" class="clear" placeholder="PIN"><br><br>
+
+            <label>Gender:</label><br><br>
+            <input type="radio" id="gender" name="gender" value="Male">Male
+            <input type="radio" id="gender" name="gender" value="Female">Female<br><br>
+
+            <label>Choice of Food:(Must choose at least 2 out of 5)</label><br><br>
+            <input type="checkbox" name="food" value="North Indian" id="food"> North Indian <br>
+            <input type="checkbox" name="food" value="South Indian" id="food"> South Indian <br>
+            <input type="checkbox" name="food" value="Chinese" id="food"> Chinese  <br>
+            <input type="checkbox" name="food" value="KFC" id="food">  KFC <br>
+            <input type="checkbox" name="food" value="Italian" id="food"> Italian <br><br>
+
+            <label>State:</label><br><br>
+            <input type="text" name="state" id="state" class="clear" placeholder="State"><br><br>
+
+            <label>Country:</label><br><br>
+            <input type="text" name="country" id="country" class="clear" placeholder="Country"><br><br>
+
+            <button id="btn">SUBMIT</button>
+            
+        </form>
+    </div>
+        <div id="div2">
+           <div class="tabledata">
+              <h1 id="datah1">Data Display</h1><br>
+              <table>
+                <thead>
+                <tr id="data">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Pincode</th>
+                    <th>Gender</th>
+                    <th>Food</th>
+                    <th>State</th>
+                    <th>Country</th>
+                </tr>
+               </thead>
+                <tbody id="tbody">
+
+                </tbody>
+                
+              </table>
+           </div>
+        </div>
+    </div>
+</div>
+   <script src="script.js"></script>
+</body>
+</html>
